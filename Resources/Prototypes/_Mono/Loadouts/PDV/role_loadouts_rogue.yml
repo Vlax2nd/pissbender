@@ -56,10 +56,10 @@
   - PDVCommanderHead
   - PDVJumpsuit
   - PDVGloves
-  - PDVOuterClothing
+  - PDVOuterClothingVizier
   - PDVHud
   - PDVBackpack
-  - PDVShoes
+  - PDVShoesVizier
   - PDVFace
   - PDVCommanderNeck
   - ContractorBoxSurvival
@@ -72,7 +72,6 @@
   - RogueFirearmCommander
   - RogueSidearm
   - RogueCommandMag
-  - RoguePistolMag
   - FactionArmorPlates
   canCustomizeName: true
 
@@ -143,17 +142,17 @@
 - type: roleLoadout
   id: JobPdvCivilian # Civvie
   groups:
-  - ContractorHead
+  - MercenaryHead
   - ContractorNeck
-  - ContractorJumpsuit
-  - ContractorGloves
-  - ContractorBackpack
+  - MercenaryJumpsuit
+  - MercenaryGloves
+  - MercenaryBackpack
   - ContractorOuterClothing
-  - ContractorShoes
-  - ContractorFace
-  - ContractorGlasses
-  - ContractorBelt
-  - ContractorEars
+  - MercenaryShoes
+  - MercenaryFace
+  - MercenaryGlasses
+  - MercenaryBelt
+  - MercenaryEars
   - ContractorEncryptionKey
   - ContractorBoxSurvival
   - ContractorPDA
@@ -165,6 +164,24 @@
   - ContractorTrinkets
   - ContractorBureaucracy
   - NFSpeciesSpecific
+  - MercenaryBalaclava # Mono
+  - CivGunCaseSpecial # Mono
+  - ContractorArmorPlates # Mono
   - RogueSidearm
   - RoguePistolMag
+  canCustomizeName: true
+
+- type: roleLoadout
+  id: JobPdvInfantry
+  groups:
+  - PDVInfantryHead
+  - PDVInfantryJumpsuit
+  - PDVGloves
+  - PDVInfantryOuterClothing
+  - PDVInfantryBackpack
+  - PDVShoes
+  - TsfmcBalaclava
+  - RakhshanPDA
+  - NFSpeciesSpecific
+  - PDVInfantryBelt
   canCustomizeName: true

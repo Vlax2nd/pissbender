@@ -161,11 +161,11 @@
   - TsfmcJumpsuit
   - TsfmcGloves
   - TsfmcBackpack
-  - TsfmcOuterClothing
+  - TsfmcOuterClothingColonel
   - TsfmcShoes
   - TsfmcFace
   - TsfmcBalaclava
-  - TsfmcGlasses
+  - TsfmcGlassesColonel
   - TsfmcBelt
   - TsfmcEarsCommander
   - NfsdBoxSurvival
@@ -230,17 +230,17 @@
 - type: roleLoadout
   id: JobTsfCivilian # Civvie
   groups:
-  - ContractorHead
+  - MercenaryHead
   - ContractorNeck
-  - ContractorJumpsuit
-  - ContractorGloves
-  - ContractorBackpack
+  - MercenaryJumpsuit
+  - MercenaryGloves
+  - MercenaryBackpack
   - ContractorOuterClothing
-  - ContractorShoes
-  - ContractorFace
-  - ContractorGlasses
-  - ContractorBelt
-  - ContractorEars
+  - MercenaryShoes
+  - MercenaryFace
+  - MercenaryGlasses
+  - MercenaryBelt
+  - MercenaryEars
   - ContractorEncryptionKey
   - ContractorBoxSurvival
   - ContractorPDA
@@ -252,6 +252,26 @@
   - ContractorTrinkets
   - ContractorBureaucracy
   - NFSpeciesSpecific
+  - MercenaryBalaclava # Mono
+  - CivGunCaseSpecial # Mono
+  - ContractorArmorPlates # Mono
   - TsfmcSidearm
   - TsfmcSidearmAmmo
+  canCustomizeName: true
+
+- type: roleLoadout
+  id: JobTsfInfantry
+  groups:
+  - TsfmcInfantryHead
+  - TsfmcInfantryJumpsuit
+  - TsfmcGloves
+  - TsfmcBackpack
+  - TsfmcOuterClothing
+  - TsfmcShoes
+  - TsfmcBalaclava
+  - TsfmcInfantryBelt
+  - TsfmcEars
+  - DeputyPDA
+  - NfsdSpeciesSpecific
+  - TsfmcRanksEnlisted
   canCustomizeName: true
