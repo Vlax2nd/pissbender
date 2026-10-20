@@ -128,8 +128,8 @@
   id: DirtyRadHeap
   components:
   - type: RadiationSource
-    intensity: 5
-    slope: 1
+    intensity: 25
+    slope: 5
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Bombs/dirtyradgrenade.rsi
     layers:
@@ -139,6 +139,11 @@
     size: Small
   - type: TimedDespawn
     lifetime: 120
+  - type: DamageOnInteract
+    ignoreResistances: true
+    damage:
+      types:
+        Radiation: 5
   - type: PointLight
     enabled: true
     radius: 2
